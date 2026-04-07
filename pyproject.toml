@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "aiosqlite>=0.22.1",
     "langchain>=1.2.15",
     "langchain-ollama>=1.0.1",
     "langchain-openai>=1.1.12",
@@ -14,8 +15,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=7.2.0",
-    "langchain-cli>=0.0.37",
-    "langgraph-cli[inmem]>=0.1.54",
+    "langgraph-cli[inmem]>=0.4.19",
 ]
 
 [tool.setuptools.packages.find]
