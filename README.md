@@ -20,7 +20,7 @@ uv add ipykernel --dev
 uv add grandalf --dev
 
 # run the agent
-uv run langgraph dev
+set -a && source .env && set +a && uv run langgraph dev
 
 # install the project
 Entonces para tomar los cambios lo que podemos hacer es compilar el proyecto.
